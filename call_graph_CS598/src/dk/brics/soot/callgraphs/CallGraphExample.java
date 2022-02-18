@@ -7,6 +7,7 @@ import soot.jimple.toolkits.callgraph.CallGraph;
 import soot.jimple.toolkits.callgraph.Targets;
 import soot.options.Options;
 
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -17,6 +18,7 @@ public class CallGraphExample
 	public static void main(String[] args) {
 		// Soot classpath
 		String path = System.getProperty("user.dir")+"/src";
+		System.out.println(path);
 
 		// Setting the classpath programatically
 		Options.v().set_prepend_classpath(true);
