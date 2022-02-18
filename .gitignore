@@ -11,7 +11,8 @@
 .mtj.tmp/
 
 # Package Files #
-*.jar
+# soot file in test folder uses soot from jar
+# *.jar
 *.war
 *.nar
 *.ear
