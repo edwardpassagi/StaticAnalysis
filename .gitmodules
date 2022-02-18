@@ -1,0 +1,3 @@
+[submodule "mockito"]
+	path = mockito
+	url = git@github.com:mockito/mockito.git
