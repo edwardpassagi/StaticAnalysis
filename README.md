@@ -21,6 +21,17 @@
 1. [Soot](https://github.com/soot-oss/soot)
 2. [Java to AST Visualization](https://github.com/Program-Analysis/Java-to-AST-with-Visualization)
 
+## Issues
+
+As of now, we're encountering Soot-related issue when trying to analyze `Mockito`. Our CG and CFG works as expected on the smaller sample script, with the following error:
+
+```
+java.lang.RuntimeException: This operation requires resolving level SIGNATURES but java.main.org.mockito.AdditionalAnswers is at resolving level HIERARCHY
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(java.main.org.mockito.AdditionalAnswers,SIGNATURES);
+Otherwise, try whole-program mode (-w).
+```
+
 ## Example Visualization
 
 ### Call-Graph Visualization
