@@ -23,7 +23,7 @@
 
 ## Issues
 
-As of now, we're encountering Soot-related issue when trying to analyze `Mockito`. Our CG and CFG works as expected on the smaller sample script, with the following error:
+Our CG and CFG works as expected on the smaller sample script. We're encountering Soot-related issue when trying to analyze `Mockito` with the following error:
 
 ```
 java.lang.RuntimeException: This operation requires resolving level SIGNATURES but java.main.org.mockito.AdditionalAnswers is at resolving level HIERARCHY
