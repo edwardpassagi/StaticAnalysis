@@ -18,5 +18,19 @@
 
 ## External Source
 
-2. [Soot](https://github.com/soot-oss/soot)
-1. [Java to AST Visualization](https://github.com/Program-Analysis/Java-to-AST-with-Visualization)
+1. [Soot](https://github.com/soot-oss/soot)
+2. [Java to AST Visualization](https://github.com/Program-Analysis/Java-to-AST-with-Visualization)
+
+## Example Visualization
+
+### Call-Graph Visualization
+
+![CG Image](/examples/cg-img.jpeg "CG")
+
+### Control-Flow-Graph Visualization
+
+![CFG Image](/examples/cfg-img.jpeg "CFG")
+
+### Abstract Syntax Tree Visualization
+
+![AST Image](/examples/mockito-ast.jpeg "AST")
