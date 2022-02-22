@@ -35,6 +35,7 @@
         <module name="mockito.kotlinReleaseCoroutinesTest.test" />
         <module name="mockito.module-test.main" />
         <module name="mockito.extTest.test" />
+        <module name="mockito.memory-test.main" />
         <module name="mockito.junitJupiterParallelTest.main" />
         <module name="mockito.android.main" />
         <module name="mockito.osgi-test.otherBundle" />
@@ -48,14 +49,13 @@
         <module name="mockito.junit-jupiter.test" />
         <module name="mockito.osgi-test.test" />
         <module name="mockito.proxy.main" />
-        <module name="mockito.memory-test.main" />
+        <module name="mockito.errorprone.test" />
         <module name="mockito.test" />
         <module name="mockito.junitJupiterInlineMockMakerExtensionTest.main" />
         <module name="mockito.module-test.test" />
         <module name="mockito.inline.main" />
         <module name="mockito.groovyTest.main" />
         <module name="mockito.junitJupiterParallelTest.test" />
-        <module name="mockito.errorprone.test" />
         <module name="mockito.junitJupiterExtensionTest.main" />
         <module name="mockito.android.test" />
         <module name="mockito.junitJupiterExtensionTest.test" />

@@ -14,17 +14,18 @@ public class GenerateCFG
 	}
 
 	private static void generateCFG (String[] args) throws FileNotFoundException {
-		PrintStream cfg_out = new PrintStream(new File("cfg-dotfile.txt"));
-		// Soot classpath
-		String path = System.getProperty("user.dir")+"/src";
+        PrintStream cfg_out = new PrintStream(new File("cg-dotfile.txt"));
+        // Soot classpath
+        String classPath = System.getProperty("user.dir")+"/build/classes";
 
-		// Setting the classpath programatically
-		Options.v().set_prepend_classpath(true);
-		Options.v().set_soot_classpath(path);
+        // Setting the classpath programatically
+        Options.v().set_prepend_classpath(true);
+        Options.v().set_soot_classpath(classPath);
+        Scene.v().loadNecessaryClasses();
 
-		// The second argument is the path to the main class of a project you want to analyze
-		// (in this case, testers/ExampleCode.java)
-		args = new String[]{"-w", "main.java.org.mockito.Mockito"};
+        // The second argument is the path to the main class of a project you want to analyze
+        // (in this case, testers/ExampleCode.java)
+        args = new String[]{"-w", "-process-dir", classPath};
 
 		PackManager.v().getPack("wjtp").add(new Transform("wjtp.myTrans", new SceneTransformer() {
 

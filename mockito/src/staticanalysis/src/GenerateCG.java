@@ -28,49 +28,49 @@ public class GenerateCG
 		// (in this case, testers/ExampleCode.java)
 		args = new String[]{"-w", "-process-dir", classPath};
 
-        Main.main(args);
+//        Main.main(args);
+//
+//        CallGraph cg = Scene.v().getCallGraph();
 
-        CallGraph cg = Scene.v().getCallGraph();
+		PackManager.v().getPack("wjtp").add(new Transform("wjtp.myTrans", new SceneTransformer() {
 
-//		PackManager.v().getPack("wjtp").add(new Transform("wjtp.myTrans", new SceneTransformer() {
-//
-//			@Override
-//			protected void internalTransform(String phaseName, Map options) {
-//                System.out.println("Before transform");
-//				CHATransformer.v().transform();
-//
-//				// This line generates the call graph of the project you're going to analyze
-//
-//                System.out.println("Before callgraph");
-//				CallGraph cg = Scene.v().getCallGraph();
-//				// Now that you have the call graph, you can start doing whatever type of
-//				// analysis needed for your problem. Below, we are going to traverse the
-//				// generated call graph and print caller/callee relationships (BFS)
-//                System.out.println("AFTER callgraph");
-//
-//				cg_out.println("digraph {");
-//				SootMethod src = Scene.v().getMainClass().getMethodByName(
-//				    "mock");
-//				List<SootMethod> nodes = new ArrayList<>();
-//				nodes.add(src);
-//				while(!nodes.isEmpty()){
-//					SootMethod parent = nodes.get(0);
-//					Iterator<MethodOrMethodContext> targets = new Targets(cg.edgesOutOf(parent));
-//					while (targets.hasNext()) {
-//						SootMethod child = (SootMethod)targets.next();
-//						if(!child.getSignature().contains("init"))
-//							nodes.add(child);
-//						cg_out.println("\"" + parent.getDeclaringClass()+
-//								"."+parent.getName()+ "\"" +
-//								" -> " + "\"" + child.getDeclaringClass()+"."+child.getName()+ "\""+ ";");
-//					}
-//					nodes.remove(0);
-//				}
-//				cg_out.println("}");
-//			}
-//
-//		}));
-//
-//		Main.main(args);
+			@Override
+			protected void internalTransform(String phaseName, Map options) {
+                System.out.println("Before transform");
+				CHATransformer.v().transform();
+
+				// This line generates the call graph of the project you're going to analyze
+
+                System.out.println("Before callgraph");
+				CallGraph cg = Scene.v().getCallGraph();
+				// Now that you have the call graph, you can start doing whatever type of
+				// analysis needed for your problem. Below, we are going to traverse the
+				// generated call graph and print caller/callee relationships (BFS)
+                System.out.println("AFTER callgraph");
+
+				cg_out.println("digraph {");
+				SootMethod src = Scene.v().getMainClass().getMethodByName(
+				    "mock");
+				List<SootMethod> nodes = new ArrayList<>();
+				nodes.add(src);
+				while(!nodes.isEmpty()){
+					SootMethod parent = nodes.get(0);
+					Iterator<MethodOrMethodContext> targets = new Targets(cg.edgesOutOf(parent));
+					while (targets.hasNext()) {
+						SootMethod child = (SootMethod)targets.next();
+						if(!child.getSignature().contains("init"))
+							nodes.add(child);
+						cg_out.println("\"" + parent.getDeclaringClass()+
+								"."+parent.getName()+ "\"" +
+								" -> " + "\"" + child.getDeclaringClass()+"."+child.getName()+ "\""+ ";");
+					}
+					nodes.remove(0);
+				}
+				cg_out.println("}");
+			}
+
+		}));
+
+		Main.main(args);
 	}
 }

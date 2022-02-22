@@ -38,7 +38,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="807fdb85-345a-4d3f-b9f2-4a976af4caaf" name="Default Changelist" comment="" />
+    <list default="true" id="807fdb85-345a-4d3f-b9f2-4a976af4caaf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sootclasses_trunk_jar_with_dependencies.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/staticanalysis/soot-mockito.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/staticanalysis/soot-mockito.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/staticanalysis/src/GenerateCFG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/staticanalysis/src/GenerateCFG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/staticanalysis/src/GenerateCG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/staticanalysis/src/GenerateCG.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,9 +58,10 @@
     </projectState>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="25HyJhxDizkubYgqMnn3tbDntLr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -61,7 +70,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/sootclasses-trunk-jar-with-dependencies.jar!/" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -79,7 +88,7 @@
       <recent name="C:\Users\Edward\Desktop\git_repositories\cs598JBRgit\mockito" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GenerateCG">
+  <component name="RunManager" selected="Application.GenerateCFG">
     <configuration name="GenerateAST" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -157,30 +166,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="689" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1645496294755" />
-    <state x="319" y="319" key="FileChooserDialogImpl" timestamp="1645495981481">
+    <state x="319" y="319" key="FileChooserDialogImpl" timestamp="1645502847382">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="319" y="319" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1645495981481" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1645498268566">
+    <state x="319" y="319" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1645502847382" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1645544577383">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1645498268566" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1645498268566">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1645544577383" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1645503095684" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1645544577382">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1645498268566" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1645498268566">
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1645544577382" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1645503095684" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1645544577382">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1645498268566" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1645498268566">
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1645544577382" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1645503095684" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1645544577382">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1645498268566" />
-    <state x="880" y="95" key="SettingsEditor" timestamp="1645496105394">
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1645544577382" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1645503095684" />
+    <state x="880" y="95" key="SettingsEditor" timestamp="1645502899934">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="880" y="95" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1645496105394" />
+    <state x="880" y="95" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1645502899934" />
     <state x="342" y="140" key="new project wizard" timestamp="1645488987284">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
