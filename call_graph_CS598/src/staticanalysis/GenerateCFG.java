@@ -1,4 +1,4 @@
-package dk.brics.soot.callgraphs;
+package staticanalysis;
 
 import soot.*;
 import soot.jimple.toolkits.callgraph.*;
