@@ -1,0 +1,28 @@
+digraph "DirectedGraph" {
+graph [label = "getValue", labelloc=t, concentrate = true];
+"240166646" [ label="(/**  * Returns the captured value of the argument. When capturing varargs use {@link #getAllValues()}. <p> If verified method was called multiple times then this method it returns the latest captured value. <p> See examples in javadoc for {@link ArgumentCaptor} class. * @return captured argument value */ public T getValue(){  return this.capturingMatcher.getLastValue(); } ,MethodDeclaration,87,98)" type=31 startLineNumber=87 endLineNumber=98 ]
+"351028485" [ label="(/**  * Returns the captured value of the argument. When capturing varargs use {@link #getAllValues()}. <p> If verified method was called multiple times then this method it returns the latest captured value. <p> See examples in javadoc for {@link ArgumentCaptor} class. * @return captured argument value */ ,Javadoc,87,95)" type=29 startLineNumber=87 endLineNumber=95 ]
+"1405747618" [ label="(public,Modifier,96,96)" type=83 startLineNumber=96 endLineNumber=96 ]
+"898406901" [ label="(T,SimpleType,96,96)" type=43 startLineNumber=96 endLineNumber=96 ]
+"1054932644" [ label="(T,SimpleName,96,96)" type=42 startLineNumber=96 endLineNumber=96 ]
+"1213349904" [ label="(getValue,SimpleName,96,96)" type=42 startLineNumber=96 endLineNumber=96 ]
+"1259769769" [ label="({  return this.capturingMatcher.getLastValue(); } ,Block,96,98)" type=8 startLineNumber=96 endLineNumber=98 ]
+"444920847" [ label="(return this.capturingMatcher.getLastValue(); ,ReturnStatement,97,97)" type=41 startLineNumber=97 endLineNumber=97 ]
+"589835301" [ label="(this.capturingMatcher.getLastValue(),MethodInvocation,97,97)" type=32 startLineNumber=97 endLineNumber=97 ]
+"2032188048" [ label="(this.capturingMatcher,FieldAccess,97,97)" type=22 startLineNumber=97 endLineNumber=97 ]
+"112466394" [ label="(this,ThisExpression,97,97)" type=52 startLineNumber=97 endLineNumber=97 ]
+"992846223" [ label="(capturingMatcher,SimpleName,97,97)" type=42 startLineNumber=97 endLineNumber=97 ]
+"1493625803" [ label="(getLastValue,SimpleName,97,97)" type=42 startLineNumber=97 endLineNumber=97 ]
+"240166646" -> "351028485"
+"240166646" -> "1405747618"
+"240166646" -> "898406901"
+"898406901" -> "1054932644"
+"240166646" -> "1213349904"
+"240166646" -> "1259769769"
+"1259769769" -> "444920847"
+"444920847" -> "589835301"
+"589835301" -> "2032188048"
+"2032188048" -> "112466394"
+"2032188048" -> "992846223"
+"589835301" -> "1493625803"
+}

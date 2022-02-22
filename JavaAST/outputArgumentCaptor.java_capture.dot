@@ -1,0 +1,42 @@
+digraph "DirectedGraph" {
+graph [label = "capture", labelloc=t, concentrate = true];
+"631659383" [ label="(/**  * Use it to capture the argument. This method <b>must be used inside of verification</b>. <p> Internally, this method registers a special implementation of an {@link ArgumentMatcher}. This argument matcher stores the argument value so that you can use it later to perform assertions. <p> See examples in javadoc for {@link ArgumentCaptor} class. * @return null or default values */ public T capture(){  T ignored=Mockito.argThat(capturingMatcher);  return defaultValue(clazz); } ,MethodDeclaration,72,85)" type=31 startLineNumber=72 endLineNumber=85 ]
+"785447854" [ label="(/**  * Use it to capture the argument. This method <b>must be used inside of verification</b>. <p> Internally, this method registers a special implementation of an {@link ArgumentMatcher}. This argument matcher stores the argument value so that you can use it later to perform assertions. <p> See examples in javadoc for {@link ArgumentCaptor} class. * @return null or default values */ ,Javadoc,72,81)" type=29 startLineNumber=72 endLineNumber=81 ]
+"556529265" [ label="(public,Modifier,82,82)" type=83 startLineNumber=82 endLineNumber=82 ]
+"346224929" [ label="(T,SimpleType,82,82)" type=43 startLineNumber=82 endLineNumber=82 ]
+"63468833" [ label="(T,SimpleName,82,82)" type=42 startLineNumber=82 endLineNumber=82 ]
+"720167805" [ label="(capture,SimpleName,82,82)" type=42 startLineNumber=82 endLineNumber=82 ]
+"1418334255" [ label="({  T ignored=Mockito.argThat(capturingMatcher);  return defaultValue(clazz); } ,Block,82,85)" type=8 startLineNumber=82 endLineNumber=85 ]
+"1466073198" [ label="(T ignored=Mockito.argThat(capturingMatcher); ,VariableDeclarationStatement,83,83)" type=60 startLineNumber=83 endLineNumber=83 ]
+"398690014" [ label="(T,SimpleType,83,83)" type=43 startLineNumber=83 endLineNumber=83 ]
+"1526298704" [ label="(T,SimpleName,83,83)" type=42 startLineNumber=83 endLineNumber=83 ]
+"1593180232" [ label="(ignored=Mockito.argThat(capturingMatcher),VariableDeclarationFragment,83,83)" type=59 startLineNumber=83 endLineNumber=83 ]
+"492079624" [ label="(ignored,SimpleName,83,83)" type=42 startLineNumber=83 endLineNumber=83 ]
+"380242442" [ label="(Mockito.argThat(capturingMatcher),MethodInvocation,83,83)" type=32 startLineNumber=83 endLineNumber=83 ]
+"125881207" [ label="(Mockito,SimpleName,83,83)" type=42 startLineNumber=83 endLineNumber=83 ]
+"1763344271" [ label="(argThat,SimpleName,83,83)" type=42 startLineNumber=83 endLineNumber=83 ]
+"1353170030" [ label="(capturingMatcher,SimpleName,83,83)" type=42 startLineNumber=83 endLineNumber=83 ]
+"370869802" [ label="(return defaultValue(clazz); ,ReturnStatement,84,84)" type=41 startLineNumber=84 endLineNumber=84 ]
+"398572781" [ label="(defaultValue(clazz),MethodInvocation,84,84)" type=32 startLineNumber=84 endLineNumber=84 ]
+"765284253" [ label="(defaultValue,SimpleName,84,84)" type=42 startLineNumber=84 endLineNumber=84 ]
+"1077199500" [ label="(clazz,SimpleName,84,84)" type=42 startLineNumber=84 endLineNumber=84 ]
+"631659383" -> "785447854"
+"631659383" -> "556529265"
+"631659383" -> "346224929"
+"346224929" -> "63468833"
+"631659383" -> "720167805"
+"631659383" -> "1418334255"
+"1418334255" -> "1466073198"
+"1466073198" -> "398690014"
+"398690014" -> "1526298704"
+"1466073198" -> "1593180232"
+"1593180232" -> "492079624"
+"1593180232" -> "380242442"
+"380242442" -> "125881207"
+"380242442" -> "1763344271"
+"380242442" -> "1353170030"
+"1418334255" -> "370869802"
+"370869802" -> "398572781"
+"398572781" -> "765284253"
+"398572781" -> "1077199500"
+}

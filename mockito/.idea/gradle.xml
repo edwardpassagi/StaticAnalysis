@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../../../../ProgramData/chocolatey/lib/gradle/tools/gradle-6.5" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/subprojects/android" />
+            <option value="$PROJECT_DIR$/subprojects/bom" />
+            <option value="$PROJECT_DIR$/subprojects/errorprone" />
+            <option value="$PROJECT_DIR$/subprojects/extTest" />
+            <option value="$PROJECT_DIR$/subprojects/groovyTest" />
+            <option value="$PROJECT_DIR$/subprojects/inline" />
+            <option value="$PROJECT_DIR$/subprojects/junit-jupiter" />
+            <option value="$PROJECT_DIR$/subprojects/junitJupiterExtensionTest" />
+            <option value="$PROJECT_DIR$/subprojects/junitJupiterInlineMockMakerExtensionTest" />
+            <option value="$PROJECT_DIR$/subprojects/junitJupiterParallelTest" />
+            <option value="$PROJECT_DIR$/subprojects/kotlinReleaseCoroutinesTest" />
+            <option value="$PROJECT_DIR$/subprojects/kotlinTest" />
+            <option value="$PROJECT_DIR$/subprojects/memory-test" />
+            <option value="$PROJECT_DIR$/subprojects/module-test" />
+            <option value="$PROJECT_DIR$/subprojects/osgi-test" />
+            <option value="$PROJECT_DIR$/subprojects/proxy" />
+          </set>
+        </option>
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
