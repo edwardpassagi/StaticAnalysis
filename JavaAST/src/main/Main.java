@@ -16,8 +16,9 @@ public class Main {
 	 * @throws IOException
 	 */
 	public static void main(String[] args) throws IOException {
-		String FilePath = "PATH/HelloWorld.java";
-		String outputDir = "PATH/output/";
+		// Your Java file here
+		String FilePath = "C:\\Users\\Edward\\Desktop\\git_repositories\\cs598JBRgit\\mockito\\src\\main\\java\\org\\mockito\\ArgumentCaptor.java";
+		String outputDir = System.getProperty("user.dir") + "\\output";
 		File f = new File(FilePath);
 		ASTGenerator astGenerator = new ASTGenerator(f);
 		List<MyMethodNode> methodNodeList = astGenerator.getMethodNodeList();

@@ -39,13 +39,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="807fdb85-345a-4d3f-b9f2-4a976af4caaf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sootclasses_trunk_jar_with_dependencies.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAST/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAST/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/staticanalysis/soot-mockito.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/staticanalysis/soot-mockito.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/staticanalysis/src/GenerateCFG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/staticanalysis/src/GenerateCFG.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/staticanalysis/src/GenerateCG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/staticanalysis/src/GenerateCG.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,9 +154,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1645489069809" />
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1645498300161">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1645546699638">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1645546699638" />
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1645498300161" />
     <state x="689" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1645496294755">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -170,25 +167,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="319" y="319" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1645502847382" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1645544577383">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1645545855268">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1645544577383" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1645545855268" />
     <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1645503095684" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1645544577382">
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1645545855268">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1645544577382" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1645545855268" />
     <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1645503095684" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1645544577382">
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1645545855268">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1645544577382" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1645545855268" />
     <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1645503095684" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1645544577382">
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1645545855268">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1645544577382" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1645545855268" />
     <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1645503095684" />
     <state x="880" y="95" key="SettingsEditor" timestamp="1645502899934">
       <screen x="0" y="0" width="1920" height="1040" />

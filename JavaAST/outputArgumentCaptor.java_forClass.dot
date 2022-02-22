@@ -1,0 +1,66 @@
+digraph "DirectedGraph" {
+graph [label = "forClass", labelloc=t, concentrate = true];
+"715521683" [ label="(/**  * Build a new <code>ArgumentCaptor</code>. <p> Note that an <code>ArgumentCaptor</code> <b>*doesn't do any type checks*</b>. It is only there to avoid casting in your code. This might however change (type checks could be added) in a future major release. * @param clazz Type matching the parameter to be captured. * @param < S > Type of clazz * @param < U > Type of object captured by the newly built ArgumentCaptor * @return A new ArgumentCaptor */ public static <U,S extends U>ArgumentCaptor<U> forClass(Class<S> clazz){  return new ArgumentCaptor<U>(clazz); } ,MethodDeclaration,136,150)" type=31 startLineNumber=136 endLineNumber=150 ]
+"1545242146" [ label="(/**  * Build a new <code>ArgumentCaptor</code>. <p> Note that an <code>ArgumentCaptor</code> <b>*doesn't do any type checks*</b>. It is only there to avoid casting in your code. This might however change (type checks could be added) in a future major release. * @param clazz Type matching the parameter to be captured. * @param < S > Type of clazz * @param < U > Type of object captured by the newly built ArgumentCaptor * @return A new ArgumentCaptor */ ,Javadoc,136,147)" type=29 startLineNumber=136 endLineNumber=147 ]
+"1524126153" [ label="(public,Modifier,148,148)" type=83 startLineNumber=148 endLineNumber=148 ]
+"102065302" [ label="(static,Modifier,148,148)" type=83 startLineNumber=148 endLineNumber=148 ]
+"63001505" [ label="(U,TypeParameter,148,148)" type=73 startLineNumber=148 endLineNumber=148 ]
+"191037037" [ label="(U,SimpleName,148,148)" type=42 startLineNumber=148 endLineNumber=148 ]
+"330084561" [ label="(S extends U,TypeParameter,148,148)" type=73 startLineNumber=148 endLineNumber=148 ]
+"1043351526" [ label="(S,SimpleName,148,148)" type=42 startLineNumber=148 endLineNumber=148 ]
+"937773018" [ label="(U,SimpleType,148,148)" type=43 startLineNumber=148 endLineNumber=148 ]
+"728258269" [ label="(U,SimpleName,148,148)" type=42 startLineNumber=148 endLineNumber=148 ]
+"1572098393" [ label="(ArgumentCaptor<U>,ParameterizedType,148,148)" type=74 startLineNumber=148 endLineNumber=148 ]
+"1627857534" [ label="(ArgumentCaptor,SimpleType,148,148)" type=43 startLineNumber=148 endLineNumber=148 ]
+"2084663827" [ label="(ArgumentCaptor,SimpleName,148,148)" type=42 startLineNumber=148 endLineNumber=148 ]
+"360062456" [ label="(U,SimpleType,148,148)" type=43 startLineNumber=148 endLineNumber=148 ]
+"1790421142" [ label="(U,SimpleName,148,148)" type=42 startLineNumber=148 endLineNumber=148 ]
+"846947180" [ label="(forClass,SimpleName,148,148)" type=42 startLineNumber=148 endLineNumber=148 ]
+"1172131546" [ label="(Class<S> clazz,SingleVariableDeclaration,148,148)" type=44 startLineNumber=148 endLineNumber=148 ]
+"1616974404" [ label="(Class<S>,ParameterizedType,148,148)" type=74 startLineNumber=148 endLineNumber=148 ]
+"927327686" [ label="(Class,SimpleType,148,148)" type=43 startLineNumber=148 endLineNumber=148 ]
+"1582071873" [ label="(Class,SimpleName,148,148)" type=42 startLineNumber=148 endLineNumber=148 ]
+"1908981452" [ label="(S,SimpleType,148,148)" type=43 startLineNumber=148 endLineNumber=148 ]
+"433287555" [ label="(S,SimpleName,148,148)" type=42 startLineNumber=148 endLineNumber=148 ]
+"27319466" [ label="(clazz,SimpleName,148,148)" type=42 startLineNumber=148 endLineNumber=148 ]
+"1003752023" [ label="({  return new ArgumentCaptor<U>(clazz); } ,Block,148,150)" type=8 startLineNumber=148 endLineNumber=150 ]
+"266272063" [ label="(return new ArgumentCaptor<U>(clazz); ,ReturnStatement,149,149)" type=41 startLineNumber=149 endLineNumber=149 ]
+"226744878" [ label="(new ArgumentCaptor<U>(clazz),ClassInstanceCreation,149,149)" type=14 startLineNumber=149 endLineNumber=149 ]
+"172032696" [ label="(ArgumentCaptor<U>,ParameterizedType,149,149)" type=74 startLineNumber=149 endLineNumber=149 ]
+"299644693" [ label="(ArgumentCaptor,SimpleType,149,149)" type=43 startLineNumber=149 endLineNumber=149 ]
+"1771243284" [ label="(ArgumentCaptor,SimpleName,149,149)" type=42 startLineNumber=149 endLineNumber=149 ]
+"2052256418" [ label="(U,SimpleType,149,149)" type=43 startLineNumber=149 endLineNumber=149 ]
+"2013559698" [ label="(U,SimpleName,149,149)" type=42 startLineNumber=149 endLineNumber=149 ]
+"143695640" [ label="(clazz,SimpleName,149,149)" type=42 startLineNumber=149 endLineNumber=149 ]
+"715521683" -> "1545242146"
+"715521683" -> "1524126153"
+"715521683" -> "102065302"
+"715521683" -> "63001505"
+"63001505" -> "191037037"
+"715521683" -> "330084561"
+"330084561" -> "1043351526"
+"330084561" -> "937773018"
+"937773018" -> "728258269"
+"715521683" -> "1572098393"
+"1572098393" -> "1627857534"
+"1627857534" -> "2084663827"
+"1572098393" -> "360062456"
+"360062456" -> "1790421142"
+"715521683" -> "846947180"
+"715521683" -> "1172131546"
+"1172131546" -> "1616974404"
+"1616974404" -> "927327686"
+"927327686" -> "1582071873"
+"1616974404" -> "1908981452"
+"1908981452" -> "433287555"
+"1172131546" -> "27319466"
+"715521683" -> "1003752023"
+"1003752023" -> "266272063"
+"266272063" -> "226744878"
+"226744878" -> "172032696"
+"172032696" -> "299644693"
+"299644693" -> "1771243284"
+"172032696" -> "2052256418"
+"2052256418" -> "2013559698"
+"226744878" -> "143695640"
+}
